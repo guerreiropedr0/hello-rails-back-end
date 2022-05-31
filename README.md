@@ -1,24 +1,84 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hello Rails-back-end
 
-Things you may want to cover:
+> Understand the setup process for creating a rails API for back-end and a React app for front-end.
 
-* Ruby version
+This project is made as part of Microverse program.
 
-* System dependencies
+## Built With
 
-* Configuration
+- RUBY
+- RAILS
+- GEM
+- TERMINAL
+- React/Redux
 
-* Database creation
+## Link to Hello Rails-front-end
 
-* Database initialization
+You can check the front-end repository [here]()
 
-* How to run the test suite
+## Getting Started
 
-* Services (job queues, cache servers, search engines, etc.)
+Start by cloning the repository.
 
-* Deployment instructions
+```
+git clone git@github.com:guerreiropedr0/hello-rails-back-end.git
+```
 
-* ...
+Navigate to the created folder.
+
+```
+cd hello-rails-back-end
+```
+
+Current Ruby Version for this project
+
+```
+ruby 3.0.3p157 (2021-11-24 revision 3fb7d2cadc) [x86_64-linux]
+```
+
+Install all the dependencies.
+
+```
+bundle install
+npm install
+```
+
+Create and migrate the database
+
+```
+rails db:create
+rails db:migrate
+rails db:seed
+```
+
+To run the server
+
+```
+rails s
+```
+
+Link to [localhost](http://localhost:3001/)
+
+## Authors
+
+👤 **Pedro Guerreiro**
+
+- GitHub: [@guerreiropedr0](https://github.com/guerreiropedr0)
+- Twitter: [@guerreiropedr0](https://twitter.com/guerreiropedr0)
+- LinkedIn: [Pedro Guerreiro](https://www.linkedin.com/in/guerreiropedr0/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
